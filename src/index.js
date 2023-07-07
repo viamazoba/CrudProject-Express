@@ -39,6 +39,6 @@ app.put('/products/:id', handleUpdateData)
 // Delete - delete 
 app.delete('/products/:id', handleDeleteData)
 
-app.listen(port, () => {
+app.listen(PORT, () => {
 console.log(`Successfully running at http://localhost:${PORT}`)
 })
