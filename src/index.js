@@ -6,7 +6,8 @@ const {
     handleCreateData, 
     handleReadData, 
     handleReadDataById,
-    handleUpdateData
+    handleUpdateData,
+    handleDeleteData
   } = require('./controller')  // Aquí se hace la importación de las funciones de controller
   
 const app = express()
@@ -33,6 +34,9 @@ app.get('/products/:id', handleReadDataById)
 
 //Update - PUT
 app.put('/products/:id', handleUpdateData)
+
+// Delete - delete 
+app.delete('/products/:id', handleDeleteData)
 
 app.listen(port, () => {
 console.log(`Successfully running at http://localhost:${port}`)

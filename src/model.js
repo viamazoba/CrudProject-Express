@@ -25,10 +25,16 @@ const updateData = (id, data) => {
   return product
 }
 
+const deleteData = (id) => {
+    db.remove(id)
+    
+}
+
 
 module.exports = {
   createData,
   readData,
   readDataById,
-  updateData
+  updateData,
+  deleteData
 }
