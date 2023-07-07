@@ -1,3 +1,4 @@
+require(dotenv).config()
 const express = require('express');
 const cors = require('cors')
 
@@ -11,7 +12,7 @@ const {
   } = require('./controller')  // Aquí se hace la importación de las funciones de controller
   
 const app = express()
-const port = 8080
+const PORT = process.env.PORT||8080
   
   
 app.use(cors())
@@ -39,5 +40,5 @@ app.put('/products/:id', handleUpdateData)
 app.delete('/products/:id', handleDeleteData)
 
 app.listen(port, () => {
-console.log(`Successfully running at http://localhost:${port}`)
+console.log(`Successfully running at http://localhost:${PORT}`)
 })
