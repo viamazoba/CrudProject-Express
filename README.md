@@ -1,6 +1,6 @@
-# CrudProject-Express :nerd_face:
+# CrudProject-Express :rocket:
 
-## Table of Contents
+## Table of Contents :page_facing_up:
 
 - [Overview](#overview)
   - [Installation](#installation)  
@@ -12,11 +12,11 @@
   - [Useful Resources](#useful-resources)
 - [Authors](#author)
 
-## Overview
+## Overview :writing_hand:
 
 The application is a product inventory management system that utilizes CRUD operations to manage products. It allows users to create, edit, update, and delete products. The application consists of a backend and frontend, and this repository contains the backend structure.
 
-### Installation
+### Installation :gear:
 
 To install the project and run it locally, follow these steps:
 
@@ -42,13 +42,13 @@ To install the project and run it locally, follow these steps:
 
 The backend server will start running on your local host.
 
-### The Challenge
+### The Challenge :weight_lifting_man:
 
 The goal of the project was to implement a product inventory management system using the MVC (Model-View-Controller) architectural pattern. The application utilizes environment variables, and it is designed to be deployed on a platform like Render. Postman was used during the development process to test the different endpoints of the application. 
 
-## My Process
+## My Process :mountain:
 
-### Built With
+### Built With :hammer_and_wrench:
 
 The project was built with the following technologies and tools:
 - Node.js
@@ -57,22 +57,22 @@ The project was built with the following technologies and tools:
 - Cors
 - @makeitrealcamp/db-mock
 
-### What I Learned
+### What I Learned :microscope:
 
 During the development of this project, I gained experience in using Express.js to build REST API and implementing CRUD operations. I also learned about environment variables, testing APIs with Postman, and using libraries for simulating databases.
 
-### Continued Development
+### Continued Development :briefcase:
 
 In future development, I plan to enhance the project by adding additional features, such as authentication and authorization for user access, pagination and filtering options for the product list, and error handling.
 
-### Useful Resources
+### Useful Resources :sos:
 
 Here are some resources that were helpful in the development of this project:
 - [Express.js Documentation](https://expressjs.com/)
 - [Node.js Documentation](https://nodejs.org/)
 - [Postman](https://www.postman.com/)
 
-## Authors
+## Authors :nerd_face:
 
 This project was created by viamazoba and erickfabiandev. You can find our GitHub profiles at the following links:
 - [viamazoba](https://github.com/viamazoba)
