@@ -1,4 +1,4 @@
-# CrudProject-Express
+# CrudProject-Express :nerd_face:
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
-- [Author](#author)
+- [Authors](#author)
 
 ## Overview
 
@@ -23,22 +23,22 @@ To install the project and run it locally, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```shell
-   git clone https://github.com/your-username/CrudProject-Express.git```
+   git clone https://github.com/viamazoba/CrudProject-Express.git
 
 2. Navigate to the project's root directory:
 
     ```shell
-    cd CrudProject-Express```
+    cd CrudProject-Express
 
 3. Install the required dependencies using npm or yarn. Run either of the following commands:
 
     ```shell
-    npm install```
+    npm install
 
 4. Once the dependencies are installed, you can start the application using the following command:
 
     ```shell
-    npm start```
+    npm start
 
 The backend server will start running on your local host.
 
@@ -72,7 +72,7 @@ Here are some resources that were helpful in the development of this project:
 - [Node.js Documentation](https://nodejs.org/)
 - [Postman](https://www.postman.com/)
 
-## Author
+## Authors
 
 This project was created by viamazoba and erickfabiandev. You can find our GitHub profiles at the following links:
 - [viamazoba](https://github.com/viamazoba)
