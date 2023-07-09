@@ -15,6 +15,7 @@
 ## Overview :writing_hand:
 
 The application is a product inventory management system that utilizes CRUD operations to manage products. It allows users to create, edit, update, and delete products. The application consists of a backend and frontend, and this repository contains the backend structure.
+This is the link of the frontend repository: [Frontend Project](https://github.com/erickfabiandev/CrudProject-React-Express) , and the link of the application deployed in vercel: [Deployed Project](https://crud-project-react-express.vercel.app/)
 
 ### Installation :gear:
 
